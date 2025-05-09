@@ -1,0 +1,109 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+nav .nav_links{
+    margin: 40px;
+}
+
+nav .nav_links ul{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav .nav_links ul li a{
+    text-decoration: none;
+    color: grey;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+}
+
+main .hero .hero-image{
+    margin: 0 0 0 50px;	
+}
+main .hero .hero-image img{
+    width: 500px;
+    height: 200px;
+    padding: 0;
+}
+
+main .hero .hero-text{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+main .hero .hero-text .header{
+    padding: 20px;
+}
+
+main .hero .hero-text .header #header1{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+
+main .hero .hero-text .paragraph{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main .hero .hero-text .paragraph p{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+
+main .hero .hero-text .read-more{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(233, 60, 60);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+main .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 350px;
+    background-color: rgb(43, 34, 34);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+main .aside h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: orange;
+    padding: 20px;
+}
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
